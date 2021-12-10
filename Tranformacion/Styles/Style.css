@@ -1,0 +1,28 @@
+p{
+	position: relative;
+}
+
+.rotate{
+	
+	top: 30px;
+	left:50px;
+	transform: rotate(-45deg);
+	height: 100px;
+	width: 150px;
+	background-color: lightblue;
+}
+.skew{
+	top: 120px;
+	left: 30px;
+	transform: skewY(25deg);
+	height: 150px;
+	width: 200px;
+	background-color: yellowgreen;
+}
+.scale{
+	top: 300px;
+	left: 30px;
+	transform: scaleY(6.5);	
+	background-color: gray;
+	width: 300px;
+}
